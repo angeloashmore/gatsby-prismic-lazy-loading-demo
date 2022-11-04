@@ -8,6 +8,7 @@ export default function Image({ slice }: SliceComponentProps) {
       <GatsbyImage
         image={slice.primary.image.gatsbyImageData}
         alt={slice.primary.image.alt}
+        style={{ width: 500 }}
       />
     </section>
   );
